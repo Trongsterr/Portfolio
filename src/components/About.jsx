@@ -1,4 +1,5 @@
 import React from 'react';
+import Aboutmeimg from "../assets/img/mig.png";
 
 const About = () => {
   return (
@@ -20,7 +21,7 @@ const About = () => {
         <p>Tak for din interesse i min profil. Jeg ser frem til at skabe forbindelser og udveksle erfaringer!</p>
     </div>
       <div className="image-container">
-        <img src="src/assets/img/mig.png" alt="Billede af mig" />
+        <img src={Aboutmeimg} alt="Billede af mig" />
       </div>
     </section>
   );

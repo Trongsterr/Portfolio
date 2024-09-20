@@ -1,11 +1,12 @@
 import React from 'react';
+import HeroSectionimg from "../assets/img/_MG_2036.JPG";
 
 const HeroSection = () => {
   return (
     <section className="hero-section">
       <div className="hero-container">
         <div className="hero-image">
-          <img src="src/assets/img/_MG_2036.JPG" alt="Mit billede" />
+          <img src={HeroSectionimg} alt="Mit billede" />
         </div>
         <div className="hero-content">
           <h1>Digital Designer & Web udvikler</h1>
@@ -16,3 +17,4 @@ const HeroSection = () => {
   );
 }
 export default HeroSection;
+
