@@ -15,7 +15,7 @@ const skills = [
 const Skills = () => {
   return (
     <section className="skills-section">
-      <h2 id="skills">Mine Færdigheder</h2>
+      <h2 id="skills">Mine Kompetencer</h2>
       <div className="carousel">
       <div className="carousel-track">
   {skills.map((skill, index) => (
